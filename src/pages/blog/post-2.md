@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Astroを実際触ってみての所感"
 description: ""
-pubDate: "2023/03/06"
+pubDate: "2023/03/05 01:00:00"
 tags: ["tech", "astro"]
 ---
 

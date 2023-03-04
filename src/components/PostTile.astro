@@ -1,4 +1,5 @@
 ---
+import dayjs from "dayjs";
 export interface Props {
   url: string;
   title: string;
@@ -30,7 +31,7 @@ const shortDescription = `${
 
     <div class="text-right italic text-sm">
       <span class="hover:text-orange-700">
-        {date}
+        {dayjs(date).format("YYYY/MM/DD")}
       </span>
     </div>
   </div>

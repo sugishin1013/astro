@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "初投稿"
 description: ""
-pubDate: "2023/03/05"
+pubDate: "2023/03/05 00:00:00"
 tags: ["blog"]
 ---
 

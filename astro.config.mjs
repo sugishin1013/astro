@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import compress from "astro-compress";
 import robotsTxt from "astro-robots-txt";
@@ -17,7 +16,6 @@ export default defineConfig({
   },
   integrations: [
     mdx(),
-    sitemap(),
     tailwind(),
     compress({
       css: true,
@@ -25,16 +23,6 @@ export default defineConfig({
       js: true,
       img: false,
       svg: false,
-    }),
-    robotsTxt({
-      sitemapBaseFileName: "sitemap-index",
-      policy: [
-        {
-          userAgent: "Googlebot",
-          allow: "/",
-          crawlDelay: 2,
-        },
-      ],
     }),
     webmanifest({
       name: "sugishin1013'Blog",
