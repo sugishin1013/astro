@@ -11,7 +11,7 @@ import { findTags, mapPosts } from "../utils/post.utils";
 const posts = await Astro.glob("./blog/*.md");
 const mappedPosts = mapPosts(posts);
 
-const tag = "general";
+const tag = "";
 const tags = findTags(mappedPosts);
 ---
 
@@ -27,7 +27,7 @@ const tags = findTags(mappedPosts);
         {SITE_SUB_TITLE}
       </h2>
 
-      <h3 class="font-bold text-red-500 text-lg">投稿</h3>
+      <h3 class="font-bold text-orange-700 text-lg">投稿</h3>
 
       <TagsFilter selectedTag={tag} tags={tags} />
 

@@ -95,3 +95,17 @@ blockquote {
     color: #000;
   }
 }
+
+@layer base {
+  .post-content {
+    h1 {
+      @apply text-3xl border-b-4 border-orange-700 border-solid pb-2 mb-2;
+    }
+    h2 {
+      @apply text-2xl border-l-4 border-orange-700 border-solid pl-2 mb-2;
+    }
+    h3 {
+      @apply text-2xl;
+    }
+  }
+}

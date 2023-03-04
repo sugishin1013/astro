@@ -15,7 +15,7 @@ export interface Props {
 
 const { posts, tag } = Astro.props as Props;
 
-const filteredPosts = filterPostsByTag(posts, tag ? `${tag}` : "general");
+const filteredPosts = filterPostsByTag(posts, tag ? `${tag}` : "");
 const tags = findTags(posts);
 ---
 
@@ -31,9 +31,9 @@ const tags = findTags(posts);
         {SITE_SUB_TITLE}
       </h2>
 
-      <h3 class="font-bold text-red-500 text-lg">投稿</h3>
+      <h3 class="font-bold text-orange-700 text-lg">投稿</h3>
 
-      <TagsFilter selectedTag={tag ? `${tag}` : "general"} tags={tags} />
+      <TagsFilter selectedTag={tag ? `${tag}` : ""} tags={tags} />
 
       <div class="grid grid-cols-1 gap-4 mt-3 mb-3">
         {
