@@ -1,5 +1,39 @@
 # Astro でブログを作成
 
+## 以下を参考にブログ作成のチュートリアルを実施
+
+https://docs.astro.build/en/tutorial/0-introduction/
+
+## Styling
+
+1. Saas を追加
+
+```
+yarn add -D sass
+```
+
+2. tailwind を追加
+
+https://docs.astro.build/en/guides/integrations-guide/tailwind/
+
+## Thema
+
+1. 以下の Free Thema をブログの雛形として反映
+
+https://github.com/alexanderhodes/astro-minimal-blog
+
+\*`optimize={false}`を指定しないと build 時にエラーが発生する
+
+```
+<Icon name="xxxx" optimize={false} />
+```
+
+## References
+
+## Credit
+
+This theme is developed based on the [astro-minimal-blog](https://github.com/alexanderhodes/astro-minimal-blog).
+
 ```
 npm create astro@latest -- --template minimal
 ```
@@ -45,5 +79,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## References
