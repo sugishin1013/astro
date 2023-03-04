@@ -4,4 +4,4 @@
 export const SITE_TITLE = "sugishin1013'Blog";
 export const SITE_SUB_TITLE = "Astroでブログを作成してみた";
 export const SITE_DESCRIPTION = "sugishin1013のブログ";
-export const SITE_URL = "http://localhost:3000";
+export const SITE_URL = "https://astro-neon-pi.vercel.app";
