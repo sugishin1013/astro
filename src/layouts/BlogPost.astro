@@ -57,7 +57,9 @@ const {
           }
         </div>
         <hr class="border-t-black mb-3 mt-3" />
-        <div class="post-content">
+        <div
+          class:list={["post-content", `${title === "About" ? "about" : ""}`]}
+        >
           <slot />
         </div>
       </article>

@@ -35,7 +35,7 @@ export default defineConfig({
     }),
     webmanifest({
       name: "sugishin1013'Blog",
-      icon: "./public/favicon.svg",
+      icon: "./public/avatar.png",
       lang: "ja",
       short_name: "sugishin1013",
       description: "sugishin1013のブログ",
