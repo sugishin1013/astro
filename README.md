@@ -28,7 +28,9 @@ https://github.com/alexanderhodes/astro-minimal-blog
 <Icon name="xxxx" optimize={false} />
 ```
 
-## References
+## Deploy
+
+https://docs.astro.build/ja/guides/deploy/vercel/
 
 ## Credit
 
