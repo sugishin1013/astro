@@ -99,10 +99,10 @@ blockquote {
 @layer base {
   .post-content {
     h1 {
-      @apply text-3xl border-b-4 border-orange-700 border-solid pb-2 mt-8 mb-4;
+      @apply text-3xl border-b-4 border-orange-700 border-solid pb-2 mt-10 mb-4;
     }
     h2 {
-      @apply text-2xl border-l-4 border-orange-700 border-solid pl-2 mt-8 mb-4;
+      @apply text-2xl border-l-4 border-orange-700 border-solid pl-2 mt-10 mb-4;
     }
     h3 {
       @apply text-2xl;
@@ -114,6 +114,9 @@ blockquote {
       img {
         @apply w-1/4;
       }
+    }
+    a {
+      @apply text-orange-700;
     }
   }
 }
