@@ -20,7 +20,7 @@ const {
 } = Astro.props as Props;
 ---
 
-<html>
+<html lang="ja">
   <head>
     <BaseHead title={title} description={description} />
     <style>
@@ -51,7 +51,7 @@ const {
           {
             updatedDate && (
               <div class="italic text-sm text-right">
-                Last updated on <time>{updatedDate}</time>
+                公開 <time>{updatedDate}</time>
               </div>
             )
           }

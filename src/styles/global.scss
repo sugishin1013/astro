@@ -27,7 +27,7 @@ h5,
 h6,
 strong,
 b {
-  color: #222;
+  color: #000;
 }
 a {
   color: #000;
@@ -77,4 +77,21 @@ blockquote {
 ::selection {
   background-color: #ef4444;
   color: white;
+}
+
+.dark {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b,
+  p {
+    color: #fff;
+  }
+  code {
+    color: #000;
+  }
 }

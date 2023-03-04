@@ -20,7 +20,7 @@ const tags = findTags(posts);
 ---
 
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ja">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
@@ -31,7 +31,7 @@ const tags = findTags(posts);
         {SITE_SUB_TITLE}
       </h2>
 
-      <h3 class="font-bold text-red-500 text-lg">Posts</h3>
+      <h3 class="font-bold text-red-500 text-lg">投稿</h3>
 
       <TagsFilter selectedTag={tag ? `${tag}` : "general"} tags={tags} />
 

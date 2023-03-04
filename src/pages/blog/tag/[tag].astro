@@ -5,7 +5,7 @@ import TagsLayout from "../../../layouts/TagsLayout.astro";
 const { tag } = Astro.params;
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
-const posts = await Astro.glob("../*.{md,mdx}");
+const posts = await Astro.glob("../*.md");
 const mappedPosts = mapPosts(posts);
 
 export function getStaticPaths() {
